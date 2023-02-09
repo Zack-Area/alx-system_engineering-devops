@@ -87,7 +87,7 @@ Add execute permission to all subdirectories of the current directory for the ow
 ```bash
 chmod  a+x */
 ```
-## Task 12irectories
+## Task 12
 Create a directory called `my_dir` with permissions `751` in the working directory.
 ```bash
 mkdir -m 751 my_dir
@@ -119,7 +119,7 @@ The file `hello` will be in the working directory.
 ```bash
 chown --from=guillaume betty hello
 ```
-## Task 17
+## Task 103
 Play the StarWars IV episode in the terminal.
 ```bash
 telnet towel.blinkenlights.nl
