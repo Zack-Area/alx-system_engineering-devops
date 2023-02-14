@@ -8,7 +8,7 @@ Create a script that creates an alias.
 alias ls="rm *"
 ```
 ## Task 1 
- Prints `hello user`, where user is the current Linux user.
+ Print `hello user`, where user is the current Linux user.
 ```bash
 echo "hello "$USER
 ```
@@ -23,7 +23,7 @@ Count the number of directories in the `PATH`.
 echo $PATH | tr ':' '\n' | wc -l
 ```
 ## Task 4
-Lists environment variables.
+List environment variables.
 ```bash
 printenv
 ```
@@ -73,7 +73,7 @@ Write a script that converts a number from base 2 to base 10.
 echo "$((2#$BINARY))"
 ```
 ## Task 12
- prints all possible combinations of two letters, except `oo`.
+ print all possible combinations of two letters, except `oo`.
 * Letters are lower cases, from `a` to `z`
 * One combination per line
 * The output should be alpha ordered, starting with `aa`
